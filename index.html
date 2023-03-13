@@ -2,44 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <!-- Header Content -->
+  <header>
+    <span class="header__span">Reliable, efficient delivery</span>
+    
+    <h1 class="header__title">Powered by Technology</h1>
+    
+    <p class="header__body-text">Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful</p>
+  </header>
+  <!-- End of Header -->
+
+<!-- Main Content -->
+  <main>
+    <section class="cards__container--cyan"> 
+      <h2 class="cards__title">Supervisor</h2>
+      <p class="cards__body-text">Monitors activity to identify project roadblocks</p>
+      <img src="images/icon-supervisor.svg" alt="">
+    </section>
   
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
+    <section class="cards__container--red">
+      <h2 class="cards__title">Team Builder</h2>
+      <p class="cards__body-text">Scans our talent network to create the optimal team for your project</p>
+      <img src="images/icon-team-builder.svg" alt="">
+    </section>
   
+    <section class="cards__container--blue">
+      <h2 class="cards__title">Karma</h2>
+      <p class="cards__body-text">Regularly evaluates our talent to ensure quality</p>
+      <img src="images/icon-karma.svg" alt="">
+    </section>
+  
+    <section class="cards__container--orange">
+      <h2 class="cards__title">Calculator</h2>
+      <p class="cards__body-text">Uses data from past projects to provide better delivery estimates</p>
+      <img src="images/icon-calculator.svg" alt="">
+    </section>
+  </main>
+  <!-- End of Main -->
+
+<!-- Footer Content -->
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/YorkieLT" target="_blank">YorkieLT</a>.
     </p>
   </footer>
+  <!-- End of Footer -->
 </body>
 </html>
