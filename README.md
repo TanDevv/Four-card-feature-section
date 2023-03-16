@@ -32,9 +32,8 @@
 
 <div align="center">
 
-![](mobile1.png)
-![](mobile2.png)
-![](desktop.png)
+![](mobile-one.png)
+![](desktop-one.png)
 
 </div>
 
