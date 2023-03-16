@@ -127,7 +127,7 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  max-width: 75rem;
+  max-width: 56.25rem;
   gap: 1.5rem;
 }
 
@@ -154,6 +154,7 @@ section {
   color: #a3a5ae;
   font-size: 0.75rem;
   line-height: 2;
+  margin-bottom: 1.5rem;
 }
 /* Cards Icon Styling */
 .cards__icon {
@@ -188,3 +189,45 @@ section {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Desktop Responsiveness */
+
+@media screen and (min-width: 56.25em) {
+  body {
+    margin: 0;
+  }
+
+  .header__span {
+    font-size: 2rem;
+  }
+  
+  .header__title {
+    font-size: 2rem;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(4, auto);
+    }
+
+  .cards__container--cyan {
+      grid-area: 2 / 1 / 4 / 2;
+    }
+
+  .cards__container--red {
+      grid-area: 1 / 2 / 3 / 3;
+    }
+
+  .cards__container--orange {
+      grid-area: 3 / 2 / 5 / 3;
+    }
+
+  .cards__container--blue {
+      grid-area: 2 / 3 / 4 / 4;
+    }
+
+  .attribution {
+    font-size: 1rem;
+  }
+  }
+  
