@@ -52,6 +52,7 @@ This is a solution to the [Four Card Feature Section challenge on Frontend Mento
   - [The challenge](#the-challenge)
 - [My process](#my-process)
   - [Built with](#built-with)
+- [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -70,7 +71,7 @@ I had fun making this project, at first I wanted to just try using only Grid but
 
 I also got to try Prettier for the first time, I enjoy its formatting compared to VS Code's default formatter. :)
 
-- My first issue was when I was styling the cards, I noticed once I shrinked my width lower than `375px`, my header would cut off at the top and only half would show, this was an issue I have had before and I am not sure what is the best solution to do, it seems like an obvious reason but I have not had much luck when researching it.
+My first issue was when I was styling the cards, I noticed once I shrinked my width lower than `375px`, my header would cut off at the top and only half would show, this was an issue I have had before and I am not sure what is the best solution to do, it seems like an obvious reason but I have not had much luck when researching it.
 
 My solution was to add `margin: 15rem` to the `body` but I can't tell if this is not good practice with how much it is and anyone seeing that makes their eye twitch!
 
